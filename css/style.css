@@ -414,4 +414,37 @@ body{
 }
 .header{
   background-color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 82px;
+}
+
+.header_item:last-child{
+    margin-right: 0px;
+}
+
+.header_link{
+    font-size: 18px;
+    line-height: 24px;
+    color:white;
+    text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
 }
