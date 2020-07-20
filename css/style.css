@@ -412,8 +412,10 @@ body{
   max-width: 1060px;
   margin: 0 auto;
 }
+
+/*Headear style start*/
+
 .header{
-  background-color: #000;
   position: fixed;
   width: 100%;
   top: 0;
@@ -425,6 +427,7 @@ body{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 .header_list{
     display: flex;
@@ -448,3 +451,18 @@ body{
 .header_link:hover, .header_link:focus, .header_link:active{
     opacity: .75;
 }
+
+/*Hadear style end*/
+
+/*Intro style start*/
+
+.intro{
+    height: 100vh;
+    background: url(../img/Intro_pg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+/*Intro style end*/
