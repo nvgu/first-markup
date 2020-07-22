@@ -518,3 +518,39 @@ body{
     background: #1971e6;
 }
 /*Intro style end*/
+
+/*Intro benefits start*/
+
+.benefits_wrap{
+    max-width: 1262px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.benefits_title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: white;
+}
+
+.benefits_cards{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 55px;
+
+}
+.benefits_card{
+
+}
+
+/*Intro benefits end*/
+
