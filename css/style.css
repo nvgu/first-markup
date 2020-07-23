@@ -543,14 +543,16 @@ body{
 }
 
 .benefits_cards{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-column-gap: 55px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0px 100px;
 }
 .benefits_card{
-    padding: 120px 100px 37px 100px;
+    grid-column: span 1;
+
 }
+
 
 /*Intro benefits end*/
 
