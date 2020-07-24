@@ -553,6 +553,28 @@ body{
 
 }
 
+.benefits_cards-title{
+    padding: 37px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 0;
+
+}
+
+.benefits_card-decs{
+    max-width: 317px;
+    padding: 26px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.benefits_card-more{
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+}
+
 
 /*Intro benefits end*/
 
