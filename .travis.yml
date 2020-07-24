@@ -1,21 +1,10 @@
 language: node_js
 node_js: node
 
-<<<<<<< HEAD
-before_deploy:
-  - npm run build
-  - echo -e "node_modules\npackage-lock.json" > .gitignore
-
-=======
->>>>>>> 4fc71d2624d8de5aff7c65bf06bd615c2a4d3dd0
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-<<<<<<< HEAD
-    branch: maste
-=======
-    branch: maste
->>>>>>> 4fc71d2624d8de5aff7c65bf06bd615c2a4d3dd0
+    branch: master
