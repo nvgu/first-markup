@@ -1,2 +1,3 @@
 ### First Markup
-https://travis-ci.org/nvgu/first-markup.svg?branch=master
+![Build](https://travis-ci.org/nvgu/first-markup.svg?branch=master)
+
