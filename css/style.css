@@ -435,7 +435,7 @@ img{
    
 }
 
-.sectiontitle::after{
+.section-title::after{
     display: block;
     content: '';
     width: 253px;
