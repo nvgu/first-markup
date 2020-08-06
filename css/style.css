@@ -667,7 +667,7 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 55px;
+    column-gap: 55px;
     padding: 0px 100px;
 }
 
@@ -762,8 +762,8 @@ img{
     display: grid;
     -ms-grid-columns:1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
     grid-template-columns:repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .places_card{
@@ -850,7 +850,7 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 108px 1fr;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 108px;
+    column-gap: 108px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -903,8 +903,8 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr;
     grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 57px;
-    grid-row-gap: 57px;
+    column-gap: 57px;
+    row-gap: 57px;
 }
 
 .top_card-pic{
@@ -1079,7 +1079,7 @@ img{
     }
     .benefits_cards {
         padding: 0 15px;
-        grid-column-gap: 35px;
+        column-gap: 35px;
     }
     .benefits_title {
         padding: 55px 15px;
@@ -1100,7 +1100,7 @@ img{
         margin-bottom: 55px;
     }
     .tours_tour {
-        grid-column-gap: 35px;
+        column-gap: 35px;
     }
     .tour_info {
         padding-left: 0;
@@ -1112,8 +1112,8 @@ img{
         margin-bottom: 15px;
     }
     .top_cards{
-        grid-column-gap: 25px;
-        grid-row-gap: 55px;
+        column-gap: 25px;
+        row-gap: 55px;
     }
     .top_card{
         -ms-grid-column-span: 3;
@@ -1273,7 +1273,7 @@ img{
         margin-bottom: 12px;
     }
     .tour_pic_mob-first {
-        -ms-grid-row: -1;
+        -ms-grid-row-start: -1;
             grid-row-start: -1;
     }
     .tours_tour {
@@ -1303,14 +1303,10 @@ img{
         width: 50%;
         margin-bottom: 24px;
     }
-
 }
-
 @media screen and (max-width: 500px) {
     .header_nav {
         padding: 75px 30px;
     }
 }
-
-
 /* Media end */
